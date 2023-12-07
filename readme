@@ -1,0 +1,13 @@
+Program Explaination:
+This program trains a CNN model by training on 8 different types of household items each with different variations of the item that I could find. In total each item has 100 training images with 25 validation images and 25 testing images for 3 different types of background. The aim of this project was to test how the different backgrounds impact the overall prediction in the model.
+
+Install Guide:
+
+In order to set up the code make sure to install all the commands in the requirements file. The file should be in the main project directory. Ideally any libary should be installed by typing pip install (resource name) in the terminal of the project.
+
+If tensorflow fails to download in the pip install and gives the error that LongPathsEnabled is not set to true
+go to regedit to open the registry editor and go to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem to find the LongPathsEnabled option and set it to 1. You might need to reset your computer to get it to work but I didn't need to for mine. 
+
+After installing all the libraries make sure the Project.py file is located in the same directory as the 437_Custom_Data images. From there the only command that should be done to run the program is Python Project.py to run the program.
+
+If you don't have python installed the files can be found https://www.python.org/downloads/
